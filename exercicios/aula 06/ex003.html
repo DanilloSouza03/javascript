@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JavaScript</title>
+    <style>
+        body {
+            background-color: #5656a4;
+            color: #ffffff;
+            font: normal Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: #00ffff;
+        }
+
+        p {
+            color: #7fffd4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Me livrei...</p>
+    <script>
+        var n1 = Number(window.prompt('Digite o primeiro número: '));
+        var n2 = Number(window.prompt('Digite o segundo número: '));
+        var s = n1 + n2;
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`); // Concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+        /*
+            String para número
+                Number.parseInt(N) (Números inteiros)
+                Number.parseFloat(N) (Números Reais)
+                Number(N) (Ambos)
+            
+            Número para String
+                String(N)
+                n.toString()    
+        */
+    </script>
+</body>
+</html>
